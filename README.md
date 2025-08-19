@@ -25,13 +25,14 @@ A SwiftUI-based iOS application for searching and managing favorite superhero in
 ## 🏗️ Architecture
 
 The project follows a clean architecture pattern with clear separation of concerns:
+```
 SuperFind/
 ├── Data/              # Data layer - API & Core Data
 ├── Domain/            # Business logic & models  
 ├── Presentation/      # UI layer - Views & ViewModels
 └── Assets.xcassets/   # App resources & icons
-
-### Key Components
+```
+# Key Components
 
 - **Data Layer**: 
   - `HeroService.swift` - API communication
@@ -76,10 +77,10 @@ SuperFind/
 The app uses the SuperHero API with the following endpoint:
 https://superheroapi.com/api/f274286a22873ec9fc7a5782940f7ca2/search/{name}
 
-# 📱 Screenshots
+## 📱 Screenshots
 Add screenshots of your app here
 
-# 🎯 Project Requirements Met
+## 🎯 Project Requirements Met
 This project successfully implements all required features:
 ✅ Navigation: Fluid navigation between multiple screens
 ✅ UI Layout: Adaptive design for different screen sizes
@@ -88,7 +89,8 @@ This project successfully implements all required features:
 ✅ Local Persistence: Core Data implementation for favorites
 ✅ SwiftUI: Built exclusively with SwiftUI framework
 
-### 📁 Project Structure
+## 📁 Project Structure
+```
 SuperFind/
 ├── SuperFindApp.swift          # App entry point
 ├── ContentView.swift           # Main content view
@@ -112,26 +114,26 @@ SuperFind/
     └── ViewModel/
         ├── FindHeroViewModel.swift
         └── FavoriteListViewModel.swift
-
-### 🔧 Key Features Implementation
-# Search Functionality
+```
+# 🔧 Key Features Implementation
+## Search Functionality
 
 - Text input field with real-time search capability
 - API integration with error handling
 - Loading states and user feedback
 
-# Hero Details
+## Hero Details
 
 - Comprehensive hero information display
 - Statistics visualization
 - Biographical information presentation
 
-# Favorites System
+## Favorites System
 - Core Data persistence
 - Add/remove favorite operations
 - Offline data access
 
-# 🎓 Academic Project
+## 🎓 Academic Project
 This application was developed as part of the Mobile Applications for iPhone course (2025-10), demonstrating:
 
 - iOS development best practices
@@ -140,10 +142,10 @@ This application was developed as part of the Mobile Applications for iPhone cou
 - API integration
 - Clean architecture principles
 
-### 📄 License
+## 📄 License
 This project is for educational purposes as part of university coursework.
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 Developed by Andrea Torres Cerdan as part of iOS Development coursework.
 
 Feel free to explore the code and provide feedback! This project showcases fundamental iOS development concepts including SwiftUI, Core Data, and API integration.
