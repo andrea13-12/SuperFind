@@ -78,7 +78,7 @@ The app uses the SuperHero API with the following endpoint:
 https://superheroapi.com/api/f274286a22873ec9fc7a5782940f7ca2/search/{name}
 
 ## 📱 Screenshots
-Add screenshots of your app here
+![SuperFind Preview](superFindPreview.png)
 
 ## 🎯 Project Requirements Met
 This project successfully implements all required features:
